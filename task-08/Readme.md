@@ -1,6 +1,3 @@
-Certainly! Here’s a README-friendly version of your experience with the TerminalTrolly challenge:
-
----
 
 # TerminalTrolly
 
