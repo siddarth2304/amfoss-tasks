@@ -56,4 +56,3 @@ Flask Blog is a simple blog application built using Flask, a micro web framework
 ## Contribution Guidelines
 - **Reporting Issues:** Please report any issues or bugs using the GitHub Issues tab.
 - **Submitting Pull Requests:** Fork the repository, make your changes, and submit a pull request with a detailed description.
-```
