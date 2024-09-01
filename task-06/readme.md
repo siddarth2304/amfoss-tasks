@@ -1,5 +1,4 @@
 
-```markdown
 # Flask Blog
 
 ## Overview
