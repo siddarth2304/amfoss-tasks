@@ -1,9 +1,8 @@
 
----
 
 ### **2. Documentation.md**
 
-```markdown
+
 # Flask Blog - Documentation
 
 ## Overview
