@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TerminalTrolly</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="main-page">
+        <div class="left">
+            <div class="products-list" id="products-list">
+                <!-- Products will be dynamically inserted here -->
+            </div>
+        </div>
+        <div class="right">
+            <div class="terminal" id="terminal">
+                <div class="output" id="output">
+                    <!-- Terminal output will be shown here -->
+                </div>
+                <input type="text" id="commandInput" placeholder="Enter command...">
+            </div>
+        </div>
+    </div>
+
+    <div class="checkout-container" id="checkout-page" style="display: none;">
+        <div class="checkout-card">
+            <h2>Your shopping cart</h2>
+            <div class="cart-items" id="cart-items">
+                <!-- Cart items will be dynamically inserted here -->
+            </div>
+            <div class="cart-summary">
+                <p>Shipping: <span>FREE</span></p>
+                <p>Total TAX: <span id="total-tax">$0.00</span></p>
+                <p class="total-amount">Total Amount: <span id="total-amount">$0.00</span></p>
+            </div>
+            <button id="checkout-btn" class="checkout-btn">Checkout</button>
+            <div id="thank-you-message" class="thank-you-message" style="display:none;">
+                <h3>Thank you! Purchase successful.</h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
