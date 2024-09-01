@@ -51,7 +51,3 @@ Flask Blog is a simple blog application built using Flask, a micro web framework
 - **Create Post:** Log in, navigate to the "New Post" page, enter post details, and submit.
 - **Update Post:** Edit existing posts by navigating to the "Edit Post" page.
 - **Delete Post:** Remove posts from the list using the delete option.
-
-## Contribution Guidelines
-- **Reporting Issues:** Please report any issues or bugs using the GitHub Issues tab.
-- **Submitting Pull Requests:** Fork the repository, make your changes, and submit a pull request with a detailed description.
