@@ -17,8 +17,7 @@ Flask Blog is a simple blog application built using Flask, a micro web framework
    ```bash
    git clone https://github.com/username/flask-blog.git
    cd flask-blog
-   ```
-
+   
 2. **Create a Virtual Environment:**
    ```bash
    python -m venv env
