@@ -1,0 +1,3 @@
+n = String.to_integer(IO.gets("Enter a number: "))
+Enum.each(0..(n - 1), fn i -> IO.puts(String.duplicate(" ", n - i - 1) <> String.duplicate("*", 2 * i + 1)) end)
+Enum.each((n - 2)..0, fn i -> IO.puts(String.duplicate(" ", n - i - 1) <> String.duplicate("*", 2 * i + 1)) end)
